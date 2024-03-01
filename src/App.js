@@ -9,7 +9,6 @@ function App() {
       <div className="container-fluid p-0 d-flex flex-column justify-content-center">
         <NavBar/>
         <Regione/>
-
         <Footer/>
       </div>
   );
