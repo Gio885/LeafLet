@@ -1,38 +1,70 @@
-.App {
+body {
+  margin: 0 auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.bg {
+  background-image: url("https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/vc_ca101_nationalparks_lassenvolcanic_manzanitalake_rf_628846294_1280x640.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-areaParco {
+  background-image: url("utility/image/fotoParcoNazionaleFotoDettaglio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+.bg-areaMarina{
+  background-image: url("utility/image/areaMarinaProtettaIsoleEgadi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.leaflet-touch .leaflet-control-layers-toggle {
+  background-image: url(https://i.stack.imgur.com/3keSg.png) !important;
+  background-color: #2da0e2;
+  background-size: 20px 20px;
+}
+.leaflet-control-layers-base {
+  font-size: 20px;
+}
+.leaflet-control-layers-expanded {
+  color: transparent;
+  background-color: #2da0e2;
+  border-radius: 20px;
+}
+.leaflet-control-layers-selector{
+  scale: 1.5;
+}
+.leaflet-control-layers-overlays {
+  text-align: left;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input.leaflet-control-layers-selector{
+  height: 20px;
+  width: 20px;
+}
+.leaflet-popup-content-wrapper{
+  width: 300px;
+  font-size: 20px;
+}
+.leaflet-control-layers-list{
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
